@@ -23,30 +23,6 @@ proxies:
   network: grpc
   grpc-opts:
       grpc-service-name: trojan
-- name: WARNA DATA UP WS
-  type: trojan
-  server: 104.18.2.2
-  port: 443
-  password: 6d9ff1cf-8a8d-4b79-ae19-a2c83f50f94e
-  udp: true
-  sni: id10.faizalsmoet.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /uptrojan
-    headers: 
-      host: id10.faizalsmoet.my.id
-- name: WARNA DATA UP GRPC
-  type: trojan
-  server: 104.18.2.2
-  port: 443
-  password: 6d9ff1cf-8a8d-4b79-ae19-a2c83f50f94e
-  udp: true
-  sni: id10.faizalsmoet.my.id
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-      grpc-service-name: uptrojan
 - name: NUSANNET WS
   type: trojan
   server: 104.18.2.2
