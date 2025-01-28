@@ -27,7 +27,7 @@ proxies:
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: vvip-backup12
+  password: vvip-faizal123
   udp: true
   sni: id3tr.faizalsmoet.my.id
   skip-cert-verify: true
@@ -40,7 +40,7 @@ proxies:
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: vvip-backup12
+  password: vvip-faizal123
   udp: true
   sni: id3tr.faizalsmoet.my.id
   skip-cert-verify: true
