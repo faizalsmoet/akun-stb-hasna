@@ -3,7 +3,7 @@ proxies:
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: 28752fa5-2342-4283-bba5-1e4321192922
+  password: a4cf4340-a9ae-48e4-b51c-dcdb2756b0cf
   udp: true
   sni: id10.faizalsmoet.my.id
   skip-cert-verify: true
@@ -16,7 +16,7 @@ proxies:
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: 28752fa5-2342-4283-bba5-1e4321192922
+  password: a4cf4340-a9ae-48e4-b51c-dcdb2756b0cf
   udp: true
   sni: id10.faizalsmoet.my.id
   skip-cert-verify: true
