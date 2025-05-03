@@ -1,24 +1,24 @@
 proxies:
-- name: WARNA DATA WS
+- name: ATHA WS
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: a4cf4340-a9ae-48e4-b51c-dcdb2756b0cf
+  password: 7789019f-23f3-4919-b2d0-3d32dffa26c6
   udp: true
-  sni: id10.faizalsmoet.my.id
+  sni: id12.natanvpn.store
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers: 
-      host: id10.faizalsmoet.my.id
-- name: WARNA DATA GRPC
+      host: id12.natanvpn.store
+- name: ATHA GRPC
   type: trojan
   server: 104.18.2.2
   port: 443
-  password: a4cf4340-a9ae-48e4-b51c-dcdb2756b0cf
+  password: 7789019f-23f3-4919-b2d0-3d32dffa26c6
   udp: true
-  sni: id10.faizalsmoet.my.id
+  sni: id12.natanvpn.store
   skip-cert-verify: true
   network: grpc
   grpc-opts:
