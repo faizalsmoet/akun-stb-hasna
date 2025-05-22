@@ -1,24 +1,24 @@
 proxies:
 - name: ATHA WS
   type: trojan
-  server: support.zoom.us
+  server: 104.17.3.81
   port: 443
   password: 7789019f-23f3-4919-b2d0-3d32dffa26c6
   udp: true
-  sni: support.zoom.us.id12.natanvpn.store
+  sni: id12.natanvpn.store
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers: 
-      host: support.zoom.us.id12.natanvpn.store
+      host: id12.natanvpn.store
 - name: ATHA GRPC
   type: trojan
-  server: support.zoom.us
+  server: 104.17.3.81
   port: 443
   password: 7789019f-23f3-4919-b2d0-3d32dffa26c6
   udp: true
-  sni: support.zoom.us.id12.natanvpn.store
+  sni: id12.natanvpn.store
   skip-cert-verify: true
   network: grpc
   grpc-opts:
