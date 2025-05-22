@@ -1,48 +1,48 @@
 proxies:
 - name: ATHA WS
   type: trojan
-  server: 104.18.2.2
+  server: support.zoom.us
   port: 443
   password: 7789019f-23f3-4919-b2d0-3d32dffa26c6
   udp: true
-  sni: id12.natanvpn.store
+  sni: support.zoom.us.id12.natanvpn.store
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers: 
-      host: id12.natanvpn.store
+      host: support.zoom.us.id12.natanvpn.store
 - name: ATHA GRPC
   type: trojan
-  server: 104.18.2.2
+  server: support.zoom.us
   port: 443
   password: 7789019f-23f3-4919-b2d0-3d32dffa26c6
   udp: true
-  sni: id12.natanvpn.store
+  sni: support.zoom.us.id12.natanvpn.store
   skip-cert-verify: true
   network: grpc
   grpc-opts:
       grpc-service-name: trojan
 - name: NUSANNET WS
   type: trojan
-  server: 104.18.2.2
+  server: support.zoom.us
   port: 443
   password: vvip-faizal123
   udp: true
-  sni: id3tr.jagoanvip.xyz
+  sni: support.zoom.us.id3tr.jagoanvip.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers: 
-      host: id3tr.jagoanvip.xyz
+      host: support.zoom.us.id3tr.jagoanvip.xyz
 - name: NUSANET GRPC
   type: trojan
-  server: 104.18.2.2
+  server: support.zoom.us
   port: 443
   password: vvip-faizal123
   udp: true
-  sni: id3tr.jagoanvip.xyz
+  sni: support.zoom.us.id3tr.jagoanvip.xyz
   skip-cert-verify: true
   network: grpc
   grpc-opts:
