@@ -3,7 +3,7 @@ proxies:
   type: trojan
   server: 104.17.3.81
   port: 443
-  password: 7789019f-23f3-4919-b2d0-3d32dffa26c6
+  password: c5527fe1-3969-4b26-9963-c005397fee5b
   udp: true
   sni: id12.natanvpn.store
   skip-cert-verify: true
@@ -16,7 +16,7 @@ proxies:
   type: trojan
   server: 104.17.3.81
   port: 443
-  password: 7789019f-23f3-4919-b2d0-3d32dffa26c6
+  password: c5527fe1-3969-4b26-9963-c005397fee5b
   udp: true
   sni: id12.natanvpn.store
   skip-cert-verify: true
